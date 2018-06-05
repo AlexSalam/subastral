@@ -9,6 +9,8 @@
 
 server 149.255.56.124, user: "deployer", roles: %w{app}
 
+append :linked_files, ".env.production"
+
 # role-based syntax
 # ==================
 
