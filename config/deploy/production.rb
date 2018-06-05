@@ -7,7 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server subastral.net, user: "deployer", roles: %w{app}
+server "subastral.net", user: "deployer", roles: %w{app}
 
 append :linked_files, ".env.production"
 
