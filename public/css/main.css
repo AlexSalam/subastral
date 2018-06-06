@@ -1,0 +1,28 @@
+h1, h2, h3, h4, p, li, td {
+    font-family: 'Raleway', sans-serif;
+}
+
+.top-nav {
+    background-color: #9aff99;
+    position: relative;
+}
+
+.top-nav .title {
+    display: inline-block;
+    font-size: 50px;
+    color: midnightblue;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 5px;
+}
+
+.top-nav .login-form {
+    display: inline-block;
+    background-color: lightgray;
+}
+
+.logo-title-container {
+    display: inline-block;
+    margin: 15px;
+    margin-right: 50px;
+}
