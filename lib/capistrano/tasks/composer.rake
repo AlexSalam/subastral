@@ -5,8 +5,8 @@ namespace :composer do
       if test "[", "-e", "/usr/local/bin/composer", "]"
         execute :composer, "self-update"
       else
-        execute :curl, "-sS", "https://getcomposer.org/installer", "|", :php
-        execute :mv, "composer.phar", "/usr/local/bin/composer"
+       # execute :curl, "-sS", "https://getcomposer.org/installer", "|", :php
+       # execute :mv, "composer.phar", "/usr/local/bin/composer"
       end
     end
   end

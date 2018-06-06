@@ -8,7 +8,7 @@
 # server "db.example.com", user: "deploy", roles: %w{db}
 
 role :app, %w{deployer@subastral.net}
-set :deploy_to, "/var/www/"
+set :deploy_to, "/var/www/subastral"
 set :lumen_dotenv_file, ".env.production"
 
 # role-based syntax

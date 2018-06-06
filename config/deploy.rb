@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "Subastral"
-set :repo_url, "git@git.com:AlexSalam/subastral.git"
+set :repo_url, "https://github.com/AlexSalam/subastral.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
