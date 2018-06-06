@@ -43,10 +43,10 @@ namespace :deploy do
   after :updated, "composer:update"
   after :updated, "composer:install"
 
+  after :updated, "lumen:upload_dotenv_file"
+
   after :updated, "laravel:permissions"
   after :updated, "laravel:optimize"
   after :updated, "laravel:migrate"
-
-  after :updated, "lumen:upload_dotenv_file"
 
 end
