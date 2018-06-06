@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "subastral"
+set :application, "Subastral"
 set :repo_url, "git@git.com:AlexSalam/subastral.git"
 
 # Default branch is :master
@@ -37,3 +37,16 @@ set :repo_url, "git@git.com:AlexSalam/subastral.git"
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+namespace :deploy do
+
+  after :updated, "composer:update"
+  after :updated, "composer:install"
+
+  after :updated, "laravel:permissions"
+  after :updated, "laravel:optimize"
+  after :updated, "laravel:migrate"
+
+  after :updated, "lumen:upload_dotenv_file"
+
+end
