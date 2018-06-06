@@ -1,0 +1,586 @@
+# Logfile created on 2018-06-05 21:49:18 +0100 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-05 21:49:18 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5e8c888c] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [5e8c888c] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 19:51:32 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5368179c] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [5368179c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5368179c] Finished in 1.331 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [09359238] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [09359238] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [09359238] Finished in 0.167 seconds with exit status 0 (successful).
+  INFO [be54b9ab] Running /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [be54b9ab] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD )
+ DEBUG [be54b9ab] 	ssh: connect to host git.com port 22: Connection timed out
+ DEBUG [be54b9ab] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:00:32 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3c4ea98e] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [3c4ea98e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3c4ea98e] Finished in 0.725 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [d360b21a] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [d360b21a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [d360b21a] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [aa3d2803] Running /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [aa3d2803] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD )
+ DEBUG [aa3d2803] 	ssh: connect to host git.com port 22: Connection timed out
+ DEBUG [aa3d2803] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:06:13 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f32fc6be] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [f32fc6be] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f32fc6be] Finished in 1.041 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [7eb6adc6] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [7eb6adc6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [7eb6adc6] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [b5d1c73b] Running /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [b5d1c73b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote git@git.com:AlexSalam/subastral.git HEAD )
+ DEBUG [b5d1c73b] 	ssh: connect to host git.com port 22: Connection timed out
+ DEBUG [b5d1c73b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:14:58 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f279b01b] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [f279b01b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [f279b01b] Finished in 0.707 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [e6143726] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [e6143726] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [e6143726] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [35331e69] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [35331e69] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [35331e69] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [35331e69] Finished in 1.600 seconds with exit status 0 (successful).
+  INFO [72f5c175] Running /usr/bin/env mkdir -p /var/www/shared /var/www/releases as deployer@subastral.net
+ DEBUG [72f5c175] Command: /usr/bin/env mkdir -p /var/www/shared /var/www/releases
+ DEBUG [72f5c175] 	mkdir: 
+ DEBUG [72f5c175] 	cannot create directory ‘/var/www/shared’
+ DEBUG [72f5c175] 	: Permission denied
+ DEBUG [72f5c175] 	
+ DEBUG [72f5c175] 	mkdir: 
+ DEBUG [72f5c175] 	cannot create directory ‘/var/www/releases’
+ DEBUG [72f5c175] 	: Permission denied
+ DEBUG [72f5c175] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:16:01 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2bcb5127] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [2bcb5127] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2bcb5127] Finished in 1.179 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [3548ff89] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [3548ff89] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [3548ff89] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [e8256bfe] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [e8256bfe] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [e8256bfe] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [e8256bfe] Finished in 1.409 seconds with exit status 0 (successful).
+  INFO [eaddbd5a] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [eaddbd5a] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [eaddbd5a] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [354e234c] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [354e234c] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [354e234c] Finished in 0.079 seconds with exit status 1 (failed).
+ DEBUG [5dad31d7] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [5dad31d7] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [5dad31d7] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [8de2c01b] Running if test ! -d /var/www/subastral; then echo "Directory does not exist '/var/www/subastral'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [8de2c01b] Command: if test ! -d /var/www/subastral; then echo "Directory does not exist '/var/www/subastral'" 1>&2; false; fi
+ DEBUG [8de2c01b] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [b62ecc6e] Running /usr/bin/env git clone --mirror https://github.com/AlexSalam/subastral.git /var/www/subastral/repo as deployer@subastral.net
+ DEBUG [b62ecc6e] Command: cd /var/www/subastral && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git clone --mirror https://github.com/AlexSalam/subastral.git /var/www/subastral/repo )
+ DEBUG [b62ecc6e] 	Cloning into bare repository '/var/www/subastral/repo'...
+  INFO [b62ecc6e] Finished in 2.661 seconds with exit status 0 (successful).
+ DEBUG [890d236f] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [890d236f] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [890d236f] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [e864f909] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [e864f909] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [e864f909] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [c4b936fa] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [c4b936fa] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c4b936fa] 	Fetching origin
+  INFO [c4b936fa] Finished in 1.033 seconds with exit status 0 (successful).
+ DEBUG [2ee46382] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [2ee46382] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [2ee46382] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [2b411667] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191604 as deployer@subastral.net
+ DEBUG [2b411667] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191604 )
+  INFO [2b411667] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [00532887] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191604 as deployer@subastral.net
+ DEBUG [00532887] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191604 )
+  INFO [00532887] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [1770c94f] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [1770c94f] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [1770c94f] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [650914c2] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [650914c2] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [650914c2] 	c2a2b4c22303e320140db5777f870c19bd374eff
+ DEBUG [650914c2] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [beaa38b5] Running if test ! -d /var/www/subastral/releases/20180606191604; then echo "Directory does not exist '/var/www/subastral/releases/20180606191604'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [beaa38b5] Command: if test ! -d /var/www/subastral/releases/20180606191604; then echo "Directory does not exist '/var/www/subastral/releases/20180606191604'" 1>&2; false; fi
+ DEBUG [beaa38b5] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [55f1ec36] Running /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION as deployer@subastral.net
+ DEBUG [55f1ec36] Command: cd /var/www/subastral/releases/20180606191604 && /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION
+  INFO [55f1ec36] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [ef077227] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [ef077227] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [ef077227] Finished in 0.114 seconds with exit status 1 (failed).
+  INFO [01f193eb] Running /usr/bin/env curl -sS https://getcomposer.org/installer | php as deployer@subastral.net
+ DEBUG [01f193eb] Command: /usr/bin/env curl -sS https://getcomposer.org/installer | php
+ DEBUG [01f193eb] 	All settings correct for using Composer
+ DEBUG [01f193eb] 	Downloading...
+ DEBUG [01f193eb] 	
+Composer (version 1.6.5) successfully installed to: /home/deployer/composer.phar
+ DEBUG [01f193eb] 	Use it: php composer.phar
+ DEBUG [01f193eb] 	
+  INFO [01f193eb] Finished in 1.421 seconds with exit status 0 (successful).
+  INFO [a159e75a] Running /usr/bin/env mv composer.phar /usr/local/bin/composer as deployer@subastral.net
+ DEBUG [a159e75a] Command: /usr/bin/env mv composer.phar /usr/local/bin/composer
+ DEBUG [a159e75a] 	mv: 
+ DEBUG [a159e75a] 	cannot move ‘composer.phar’ to ‘/usr/local/bin/composer’
+ DEBUG [a159e75a] 	: Permission denied
+ DEBUG [a159e75a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:18:30 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [36c1ead3] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [36c1ead3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [36c1ead3] Finished in 0.824 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [2f334cda] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [2f334cda] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [2f334cda] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [45a3e22e] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [45a3e22e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [45a3e22e] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [45a3e22e] Finished in 0.895 seconds with exit status 0 (successful).
+  INFO [be066310] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [be066310] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [be066310] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [c0c40854] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [c0c40854] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [c0c40854] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [3c961e8a] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [3c961e8a] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [3c961e8a] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [6566d1d1] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [6566d1d1] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [6566d1d1] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [0cbc0059] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [0cbc0059] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [0cbc0059] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [db886bc1] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [db886bc1] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [db886bc1] 	Fetching origin
+  INFO [db886bc1] Finished in 0.842 seconds with exit status 0 (successful).
+ DEBUG [6fe971f7] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [6fe971f7] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [6fe971f7] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [19c928dd] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191832 as deployer@subastral.net
+ DEBUG [19c928dd] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191832 )
+  INFO [19c928dd] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [4216b9c2] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191832 as deployer@subastral.net
+ DEBUG [4216b9c2] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191832 )
+  INFO [4216b9c2] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG [dfaa6db1] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [dfaa6db1] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [dfaa6db1] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [6a452b2d] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [6a452b2d] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6a452b2d] 	c2a2b4c22303e320140db5777f870c19bd374eff
+ DEBUG [6a452b2d] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [baf82d2f] Running if test ! -d /var/www/subastral/releases/20180606191832; then echo "Directory does not exist '/var/www/subastral/releases/20180606191832'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [baf82d2f] Command: if test ! -d /var/www/subastral/releases/20180606191832; then echo "Directory does not exist '/var/www/subastral/releases/20180606191832'" 1>&2; false; fi
+ DEBUG [baf82d2f] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [125c14c5] Running /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION as deployer@subastral.net
+ DEBUG [125c14c5] Command: cd /var/www/subastral/releases/20180606191832 && /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION
+  INFO [125c14c5] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [64297413] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [64297413] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [64297413] Finished in 0.077 seconds with exit status 1 (failed).
+  INFO [015bb3e4] Running /usr/bin/env curl -sS https://getcomposer.org/installer | php as deployer@subastral.net
+ DEBUG [015bb3e4] Command: /usr/bin/env curl -sS https://getcomposer.org/installer | php
+ DEBUG [015bb3e4] 	All settings correct for using Composer
+ DEBUG [015bb3e4] 	Downloading...
+ DEBUG [015bb3e4] 	
+Composer (version 1.6.5) successfully installed to: /home/deployer/composer.phar
+ DEBUG [015bb3e4] 	Use it: php composer.phar
+ DEBUG [015bb3e4] 	
+  INFO [015bb3e4] Finished in 1.367 seconds with exit status 0 (successful).
+  INFO [a01d13f4] Running /usr/bin/env mv composer.phar /usr/local/bin/composer as deployer@subastral.net
+ DEBUG [a01d13f4] Command: /usr/bin/env mv composer.phar /usr/local/bin/composer
+ DEBUG [a01d13f4] 	mv: 
+ DEBUG [a01d13f4] 	cannot move ‘composer.phar’ to ‘/usr/local/bin/composer’
+ DEBUG [a01d13f4] 	: Permission denied
+ DEBUG [a01d13f4] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:18:53 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e94f6949] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [e94f6949] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e94f6949] Finished in 0.694 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [d01d8c37] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [d01d8c37] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [d01d8c37] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [987d8274] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [987d8274] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [987d8274] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [987d8274] Finished in 0.783 seconds with exit status 0 (successful).
+  INFO [5ae1521f] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [5ae1521f] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [5ae1521f] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [b7b0c507] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [b7b0c507] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [b7b0c507] Finished in 0.120 seconds with exit status 1 (failed).
+ DEBUG [7d62ebb5] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [7d62ebb5] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [7d62ebb5] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [25fe1409] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [25fe1409] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [25fe1409] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [b4945f3f] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [b4945f3f] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [b4945f3f] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [04d90de7] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [04d90de7] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [04d90de7] 	Fetching origin
+  INFO [04d90de7] Finished in 0.721 seconds with exit status 0 (successful).
+ DEBUG [09841576] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [09841576] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [09841576] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [211bccc4] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191855 as deployer@subastral.net
+ DEBUG [211bccc4] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606191855 )
+  INFO [211bccc4] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [e670bb10] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191855 as deployer@subastral.net
+ DEBUG [e670bb10] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606191855 )
+  INFO [e670bb10] Finished in 0.171 seconds with exit status 0 (successful).
+ DEBUG [8d27910a] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [8d27910a] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [8d27910a] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [c6beac17] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [c6beac17] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [c6beac17] 	c2a2b4c22303e320140db5777f870c19bd374eff
+ DEBUG [c6beac17] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [7d9b7b81] Running if test ! -d /var/www/subastral/releases/20180606191855; then echo "Directory does not exist '/var/www/subastral/releases/20180606191855'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [7d9b7b81] Command: if test ! -d /var/www/subastral/releases/20180606191855; then echo "Directory does not exist '/var/www/subastral/releases/20180606191855'" 1>&2; false; fi
+ DEBUG [7d9b7b81] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [c01078c2] Running /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION as deployer@subastral.net
+ DEBUG [c01078c2] Command: cd /var/www/subastral/releases/20180606191855 && /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION
+  INFO [c01078c2] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [8bc9f621] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [8bc9f621] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [8bc9f621] Finished in 0.072 seconds with exit status 1 (failed).
+ DEBUG [41b0c1ad] Running if test ! -d /var/www/subastral/releases/20180606191855; then echo "Directory does not exist '/var/www/subastral/releases/20180606191855'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [41b0c1ad] Command: if test ! -d /var/www/subastral/releases/20180606191855; then echo "Directory does not exist '/var/www/subastral/releases/20180606191855'" 1>&2; false; fi
+ DEBUG [41b0c1ad] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [5fc0cdfd] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deployer@subastral.net
+ DEBUG [5fc0cdfd] Command: cd /var/www/subastral/releases/20180606191855 && /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [5fc0cdfd] 	Your requirements could not be resolved to an installable set of packages.
+ DEBUG [5fc0cdfd] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:24:13 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8900eff0] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [8900eff0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8900eff0] Finished in 0.716 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [290690cd] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [290690cd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [290690cd] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [7d2ab16d] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [7d2ab16d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [7d2ab16d] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [7d2ab16d] Finished in 0.817 seconds with exit status 0 (successful).
+  INFO [88b96664] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [88b96664] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [88b96664] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [95a47ab2] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [95a47ab2] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [95a47ab2] Finished in 0.079 seconds with exit status 1 (failed).
+ DEBUG [58e22067] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [58e22067] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [58e22067] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [3f00227f] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [3f00227f] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [3f00227f] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [09db98f6] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [09db98f6] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [09db98f6] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [81e85664] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [81e85664] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [81e85664] 	Fetching origin
+  INFO [81e85664] Finished in 0.786 seconds with exit status 0 (successful).
+ DEBUG [1258dd75] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [1258dd75] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [1258dd75] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [4d436e69] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606192415 as deployer@subastral.net
+ DEBUG [4d436e69] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606192415 )
+  INFO [4d436e69] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [df8e7d44] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606192415 as deployer@subastral.net
+ DEBUG [df8e7d44] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606192415 )
+  INFO [df8e7d44] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [bca203e3] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [bca203e3] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [bca203e3] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [848df83b] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [848df83b] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [848df83b] 	c2a2b4c22303e320140db5777f870c19bd374eff
+ DEBUG [848df83b] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [b72afa06] Running if test ! -d /var/www/subastral/releases/20180606192415; then echo "Directory does not exist '/var/www/subastral/releases/20180606192415'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [b72afa06] Command: if test ! -d /var/www/subastral/releases/20180606192415; then echo "Directory does not exist '/var/www/subastral/releases/20180606192415'" 1>&2; false; fi
+ DEBUG [b72afa06] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [80209e03] Running /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION as deployer@subastral.net
+ DEBUG [80209e03] Command: cd /var/www/subastral/releases/20180606192415 && /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION
+  INFO [80209e03] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [c4060900] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [c4060900] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [c4060900] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [5d666414] Running if test ! -d /var/www/subastral/releases/20180606192415; then echo "Directory does not exist '/var/www/subastral/releases/20180606192415'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [5d666414] Command: if test ! -d /var/www/subastral/releases/20180606192415; then echo "Directory does not exist '/var/www/subastral/releases/20180606192415'" 1>&2; false; fi
+ DEBUG [5d666414] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [8f2c2181] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deployer@subastral.net
+ DEBUG [8f2c2181] Command: cd /var/www/subastral/releases/20180606192415 && /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [8f2c2181] 	Your requirements could not be resolved to an installable set of packages.
+ DEBUG [8f2c2181] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:24:45 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5a6301a8] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [5a6301a8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5a6301a8] Finished in 0.727 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [a383ffdf] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [a383ffdf] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [a383ffdf] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [c9dd8690] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [c9dd8690] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [c9dd8690] 	c2a2b4c22303e320140db5777f870c19bd374eff	HEAD
+  INFO [c9dd8690] Finished in 0.831 seconds with exit status 0 (successful).
+  INFO [ce8041fd] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [ce8041fd] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [ce8041fd] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [fd77f694] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [fd77f694] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [fd77f694] Finished in 0.076 seconds with exit status 1 (failed).
+ DEBUG [1e8d1ddd] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [1e8d1ddd] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [1e8d1ddd] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [9e43d648] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [9e43d648] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [9e43d648] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [0145ea34] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [0145ea34] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [0145ea34] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [8ec10ad8] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [8ec10ad8] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8ec10ad8] 	Fetching origin
+  INFO [8ec10ad8] Finished in 0.830 seconds with exit status 0 (successful).
+ DEBUG [0573905d] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [0573905d] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [0573905d] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [8304d271] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606192447 as deployer@subastral.net
+ DEBUG [8304d271] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606192447 )
+  INFO [8304d271] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [694097ca] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606192447 as deployer@subastral.net
+ DEBUG [694097ca] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606192447 )
+  INFO [694097ca] Finished in 0.097 seconds with exit status 0 (successful).
+ DEBUG [34dd7097] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [34dd7097] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [34dd7097] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [b7c64e76] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [b7c64e76] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b7c64e76] 	c2a2b4c22303e320140db5777f870c19bd374eff
+ DEBUG [b7c64e76] Finished in 0.088 seconds with exit status 0 (successful).
+ DEBUG [1bbd5147] Running if test ! -d /var/www/subastral/releases/20180606192447; then echo "Directory does not exist '/var/www/subastral/releases/20180606192447'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [1bbd5147] Command: if test ! -d /var/www/subastral/releases/20180606192447; then echo "Directory does not exist '/var/www/subastral/releases/20180606192447'" 1>&2; false; fi
+ DEBUG [1bbd5147] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [53a536ca] Running /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION as deployer@subastral.net
+ DEBUG [53a536ca] Command: cd /var/www/subastral/releases/20180606192447 && /usr/bin/env echo "c2a2b4c22303e320140db5777f870c19bd374eff" > REVISION
+  INFO [53a536ca] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [c4ae1b21] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [c4ae1b21] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [c4ae1b21] Finished in 0.073 seconds with exit status 1 (failed).
+ DEBUG [850fc1b0] Running if test ! -d /var/www/subastral/releases/20180606192447; then echo "Directory does not exist '/var/www/subastral/releases/20180606192447'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [850fc1b0] Command: if test ! -d /var/www/subastral/releases/20180606192447; then echo "Directory does not exist '/var/www/subastral/releases/20180606192447'" 1>&2; false; fi
+ DEBUG [850fc1b0] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [2c5e1f19] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deployer@subastral.net
+ DEBUG [2c5e1f19] Command: cd /var/www/subastral/releases/20180606192447 && /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [2c5e1f19] 	Your requirements could not be resolved to an installable set of packages.
+ DEBUG [2c5e1f19] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:45:12 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6fdd6009] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [6fdd6009] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6fdd6009] Finished in 1.931 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [ccfdbaa2] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [ccfdbaa2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [ccfdbaa2] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [7e7a0962] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [7e7a0962] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [7e7a0962] 	f35bb493216da1b879c3c30ce26a5268b14bf0e8	HEAD
+  INFO [7e7a0962] Finished in 0.965 seconds with exit status 0 (successful).
+  INFO [cc7040fe] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [cc7040fe] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [cc7040fe] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [fc610fd8] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [fc610fd8] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [fc610fd8] Finished in 0.390 seconds with exit status 1 (failed).
+ DEBUG [03e999c3] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [03e999c3] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [03e999c3] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [6fa8fbb2] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [6fa8fbb2] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [6fa8fbb2] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [cebf8fb7] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [cebf8fb7] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [cebf8fb7] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [3b34002e] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [3b34002e] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [3b34002e] 	Fetching origin
+ DEBUG [3b34002e] 	From https://github.com/AlexSalam/subastral
+   c2a2b4c..f35bb49  master     -> master
+  INFO [3b34002e] Finished in 1.450 seconds with exit status 0 (successful).
+ DEBUG [aa0c7afb] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [aa0c7afb] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [aa0c7afb] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [aa039997] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606194516 as deployer@subastral.net
+ DEBUG [aa039997] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606194516 )
+  INFO [aa039997] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [fa6f6c24] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606194516 as deployer@subastral.net
+ DEBUG [fa6f6c24] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606194516 )
+  INFO [fa6f6c24] Finished in 0.090 seconds with exit status 0 (successful).
+ DEBUG [5307af12] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [5307af12] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [5307af12] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [8c74a47d] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [8c74a47d] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8c74a47d] 	f35bb493216da1b879c3c30ce26a5268b14bf0e8
+ DEBUG [8c74a47d] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [33a4459d] Running if test ! -d /var/www/subastral/releases/20180606194516; then echo "Directory does not exist '/var/www/subastral/releases/20180606194516'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [33a4459d] Command: if test ! -d /var/www/subastral/releases/20180606194516; then echo "Directory does not exist '/var/www/subastral/releases/20180606194516'" 1>&2; false; fi
+ DEBUG [33a4459d] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [efb1ab73] Running /usr/bin/env echo "f35bb493216da1b879c3c30ce26a5268b14bf0e8" > REVISION as deployer@subastral.net
+ DEBUG [efb1ab73] Command: cd /var/www/subastral/releases/20180606194516 && /usr/bin/env echo "f35bb493216da1b879c3c30ce26a5268b14bf0e8" > REVISION
+  INFO [efb1ab73] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [7c25792a] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [7c25792a] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [7c25792a] Finished in 0.074 seconds with exit status 1 (failed).
+ DEBUG [0918c45f] Running if test ! -d /var/www/subastral/releases/20180606194516; then echo "Directory does not exist '/var/www/subastral/releases/20180606194516'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [0918c45f] Command: if test ! -d /var/www/subastral/releases/20180606194516; then echo "Directory does not exist '/var/www/subastral/releases/20180606194516'" 1>&2; false; fi
+ DEBUG [0918c45f] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [7ad9b66b] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deployer@subastral.net
+ DEBUG [7ad9b66b] Command: cd /var/www/subastral/releases/20180606194516 && /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [7ad9b66b] 	Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. Run update to update them.
+ DEBUG [7ad9b66b] 	
+ DEBUG [7ad9b66b] 	Your requirements could not be resolved to an installable set of packages.
+ DEBUG [7ad9b66b] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-06 20:52:03 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e31ee329] Running /usr/bin/env mkdir -p /tmp as deployer@subastral.net
+ DEBUG [e31ee329] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e31ee329] Finished in 0.686 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Subastral-production-alex.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Subastral-production-alex.sh 100.0%
+  INFO [6da48080] Running /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh as deployer@subastral.net
+ DEBUG [6da48080] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Subastral-production-alex.sh
+  INFO [6da48080] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [a5c24e2d] Running /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD as deployer@subastral.net
+ DEBUG [a5c24e2d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git ls-remote https://github.com/AlexSalam/subastral.git HEAD )
+ DEBUG [a5c24e2d] 	3f63804f6d4a5ab01c6ec768c2f08e166470c987	HEAD
+  INFO [a5c24e2d] Finished in 1.340 seconds with exit status 0 (successful).
+  INFO [45bb4566] Running /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases as deployer@subastral.net
+ DEBUG [45bb4566] Command: /usr/bin/env mkdir -p /var/www/subastral/shared /var/www/subastral/releases
+  INFO [45bb4566] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [eed02826] Running [ -f /var/www/subastral/current/REVISION ] as deployer@subastral.net
+ DEBUG [eed02826] Command: [ -f /var/www/subastral/current/REVISION ]
+ DEBUG [eed02826] Finished in 0.071 seconds with exit status 1 (failed).
+ DEBUG [dd136621] Running [ -f /var/www/subastral/repo/HEAD ] as deployer@subastral.net
+ DEBUG [dd136621] Command: [ -f /var/www/subastral/repo/HEAD ]
+ DEBUG [dd136621] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/subastral/repo
+ DEBUG [6ecaae6e] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [6ecaae6e] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [6ecaae6e] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [4d492496] Running /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git as deployer@subastral.net
+ DEBUG [4d492496] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote set-url origin https://github.com/AlexSalam/subastral.git )
+  INFO [4d492496] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [6d71b67a] Running /usr/bin/env git remote update --prune as deployer@subastral.net
+ DEBUG [6d71b67a] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [6d71b67a] 	Fetching origin
+ DEBUG [6d71b67a] 	From https://github.com/AlexSalam/subastral
+   f35bb49..3f63804  master     -> master
+  INFO [6d71b67a] Finished in 1.779 seconds with exit status 0 (successful).
+ DEBUG [27021616] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [27021616] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [27021616] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [a9a70f9d] Running /usr/bin/env mkdir -p /var/www/subastral/releases/20180606195205 as deployer@subastral.net
+ DEBUG [a9a70f9d] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env mkdir -p /var/www/subastral/releases/20180606195205 )
+  INFO [a9a70f9d] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [69186982] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606195205 as deployer@subastral.net
+ DEBUG [69186982] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/subastral/releases/20180606195205 )
+  INFO [69186982] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [73448aea] Running if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [73448aea] Command: if test ! -d /var/www/subastral/repo; then echo "Directory does not exist '/var/www/subastral/repo'" 1>&2; false; fi
+ DEBUG [73448aea] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [46556059] Running /usr/bin/env git rev-list --max-count=1 master as deployer@subastral.net
+ DEBUG [46556059] Command: cd /var/www/subastral/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Subastral-production-alex.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [46556059] 	3f63804f6d4a5ab01c6ec768c2f08e166470c987
+ DEBUG [46556059] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [96da1cf6] Running if test ! -d /var/www/subastral/releases/20180606195205; then echo "Directory does not exist '/var/www/subastral/releases/20180606195205'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [96da1cf6] Command: if test ! -d /var/www/subastral/releases/20180606195205; then echo "Directory does not exist '/var/www/subastral/releases/20180606195205'" 1>&2; false; fi
+ DEBUG [96da1cf6] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [15c99fb3] Running /usr/bin/env echo "3f63804f6d4a5ab01c6ec768c2f08e166470c987" > REVISION as deployer@subastral.net
+ DEBUG [15c99fb3] Command: cd /var/www/subastral/releases/20180606195205 && /usr/bin/env echo "3f63804f6d4a5ab01c6ec768c2f08e166470c987" > REVISION
+  INFO [15c99fb3] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [dc05eafe] Running /usr/bin/env [ -e /usr/local/bin/composer ] as deployer@subastral.net
+ DEBUG [dc05eafe] Command: /usr/bin/env [ -e /usr/local/bin/composer ]
+ DEBUG [dc05eafe] Finished in 0.077 seconds with exit status 1 (failed).
+ DEBUG [ff3ea9c6] Running if test ! -d /var/www/subastral/releases/20180606195205; then echo "Directory does not exist '/var/www/subastral/releases/20180606195205'" 1>&2; false; fi as deployer@subastral.net
+ DEBUG [ff3ea9c6] Command: if test ! -d /var/www/subastral/releases/20180606195205; then echo "Directory does not exist '/var/www/subastral/releases/20180606195205'" 1>&2; false; fi
+ DEBUG [ff3ea9c6] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [f3d5f38a] Running /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader as deployer@subastral.net
+ DEBUG [f3d5f38a] Command: cd /var/www/subastral/releases/20180606195205 && /usr/bin/env composer install --no-dev --prefer-dist --no-interaction --quiet --optimize-autoloader
+ DEBUG [f3d5f38a] 	
+ DEBUG [f3d5f38a] 	                                                                              
+  [UnexpectedValueException]                                                  
+  Could not parse version constraint ~5.5.*: Invalid version string "~5.5.*"  
+                                                                              
+
