@@ -29,7 +29,6 @@
                     @include('components.sidebar')
                 </div>
                 <div class="col-md-9">
-                    <h1>Subastral</h1>
                     @yield('content')
                 </div>
             </div>

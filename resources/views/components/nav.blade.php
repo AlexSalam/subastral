@@ -6,7 +6,7 @@
 
 <div class="pull-right login-form">
     <form method="post" action="/login" id="login">
-        <label for="username">Username <input name="username" type="text"></label>
+        <label for="username">Username <input name="username" type="text"></label><br>
         <label for="password">Password <input name="password" type="password"></label>
         {{ csrf_field() }}
     </form>
