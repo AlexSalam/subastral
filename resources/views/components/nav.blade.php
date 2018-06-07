@@ -5,5 +5,9 @@
 <h1 class="title">Subastral</h1>
 
 <div class="pull-right login-form">
-    <p>LOG IN</p>
+    <form method="post" action="/login" id="login">
+        <label for="username">Username <input name="username" type="text"></label>
+        <label for="password">Password <input name="password" type="password"></label>
+        {{ csrf_field() }}
+    </form>
 </div>
