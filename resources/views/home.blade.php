@@ -21,7 +21,14 @@
                     <h3>Create a new campaign!</h3>
                 </div>
                 <div class="panel-body">
-                    <p>Campaigns serve to contain all your custom content for that adventure, making it searchable</p>
+                    <p>Campaigns serve to contain all your custom content for your adventure, making it searchable, linkable and available to your players.  Don't worry though, you choose what is published and when it goes out.</p>
+                    <form action="/campaign/create" method="post" id="creation-form">
+                        <div class="form-group create-container">
+                            <input type="text" form="creation-form" placeholder="Campaign Name" class="form-control" />
+                            <input type="submit" form="creation-form" value="Create" class="form-control btn-primary btn-large" />
+                        </div>
+                    </form>
+                    <p>You can have only a single campaign in the free tier so make it count!</p>
                 </div>
             </div>
         </div>

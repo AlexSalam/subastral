@@ -58,3 +58,7 @@ h1, h2, h3, h4, p, li, td {
 .home > .panel-heading {
     background-color: #9aff99;
 }
+
+#creation-form > .create-container :last-child {
+    margin: 20px 0;
+}
