@@ -1,6 +1,14 @@
+/*General Styles*/
+
 h1, h2, h3, h4, p, li, td {
     font-family: 'Raleway', sans-serif;
 }
+
+.title {
+    margin-bottom: 25px;
+}
+
+/*Top Nav styles*/
 
 .top-nav {
     background-color: #9aff99;
@@ -30,7 +38,23 @@ h1, h2, h3, h4, p, li, td {
     margin-right: 50px;
 }
 
+/*Sidebar Styles*/
 
 .sidebar {
+    border-right: 1px solid grey;
+    width: 100%;
+}
+
+.sidebar .campaign-selector {
+    background-color: #e1e9f7;
+    border-radius: 10px 0 0 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/*Homepage Styles*/
+
+.home > .panel-heading {
     background-color: #9aff99;
 }
