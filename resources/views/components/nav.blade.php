@@ -2,7 +2,7 @@
     <img class="logo" src="http://via.placeholder.com/75x75" />
 </div>
 
-<h1 class="title">Subastral</h1>
+<h1 class="title"><a href="/">Subastral</a><span class="definition"> - <i>below the sphere of the fixed stars</i></span></h1>
 
 <div class="pull-right login-form">
     <form method="post" action="/login" id="login">

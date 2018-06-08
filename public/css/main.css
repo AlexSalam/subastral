@@ -8,6 +8,11 @@ h1, h2, h3, h4, p, li, td {
     margin-bottom: 10px;
 }
 
+.title :hover {
+    text-decoration: none;
+    color: #337ab7;
+}
+
 .alert-box {
     margin-top: 25px;
 }
@@ -17,6 +22,11 @@ h1, h2, h3, h4, p, li, td {
 .top-nav {
     background-color: #9aff99;
     position: relative;
+}
+
+.definition {
+    font-size: 18px;
+    color: gray;
 }
 
 .top-nav .title {
