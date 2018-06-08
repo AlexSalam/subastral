@@ -5,7 +5,11 @@ h1, h2, h3, h4, p, li, td {
 }
 
 .title {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.alert-box {
+    margin-top: 25px;
 }
 
 /*Top Nav styles*/

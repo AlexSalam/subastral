@@ -29,6 +29,7 @@
                     @include('components.sidebar')
                 </div>
                 <div class="col-md-9">
+                    @include('components.messagebox')
                     @yield('content')
                 </div>
             </div>
