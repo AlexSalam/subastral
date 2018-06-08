@@ -53,6 +53,29 @@ h1, h2, h3, h4, p, li, td {
     padding: 10px;
 }
 
+.side-nav {
+    margin-top: 25px;
+}
+
+.side-nav > a {
+    font-size: 18px;
+    color: midnightblue;
+    width: 95%;
+    padding: 10px;
+    padding-left: 50px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px 0 0 5px;
+    border-left: 1px solid midnightblue;
+}
+
+.side-nav > a:hover {
+    background-color: #9aff99;
+    color: midnightblue;
+    width: 100%
+}
+
 /*Homepage Styles*/
 
 .home > .panel-heading {
@@ -61,4 +84,15 @@ h1, h2, h3, h4, p, li, td {
 
 #creation-form > .create-container :last-child {
     margin: 20px 0;
+}
+
+.comp-list {
+    border-left: 1px solid midnightblue;
+}
+
+/*Footer Styles*/
+
+.footer {
+    background-color: midnightblue;
+    height: 100px;
 }

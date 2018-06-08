@@ -37,24 +37,43 @@
         <div class="col-md-6">
             <div class="panel panel-default bottom-left home">
                 <div class="panel-heading">
-                    <h3>This site is awesome!</h3>
+                    <h3>Awesome features!</h3>
                 </div>
                 <div class="panel-body">
-                    <ul>
-                        <li>Store monsters, npcs, places and more!</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Free Tier</h4>
+                            <ul>
+                                <li>Single campaign</li>
+                                <li>Linking of content</li>
+                                <li>Search functionality</li>
+                                <li>Adventure Log</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 comp-list">
+                            <h4>Pro Tier</h4>
+                            <ul>
+                                <li>Unlimited campaigns</li>
+                                <li>Export content to other campaigns</li>
+                                <li>Content browser</li>
+                                <li>Store images or art with content</li>
+                                <li>Custom spells</li>
+                                <li>Ad free experience</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="panel panel-default bottom-right home">
                 <div class="panel-heading">
-                    <h3>This site is awesome!</h3>
+                    <h3>Featured Content</h3>
                 </div>
                 <div class="panel-body">
-                    <ul>
-                        <li>Store monsters, npcs, places and more!</li>
-                    </ul>
+                    <h4>Ridley the Gnome</h4>
+                    <p>Smooth, suave and sophisticated Ridley is overworked and underpaid while working for the Vae'lor archeologists guild, a product of astounding genius and poorly negotiated holiday allowanced Ridley is the gnome to talk to about your expedition into the unknown.</p>
+                    <p>Whether you're search for the lost city of an elder race or just some shiny mcguffin Ridley is there to help and of course skim a bit off the top of the budget!</p>
                 </div>
             </div>
         </div>

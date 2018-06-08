@@ -10,7 +10,11 @@
             </div>
         </form>
     </div>
-    <nav>
-        <a href="/about">About</a>
+    <nav class="side-nav">
+        <a class="pro" href="/account/upgrade">Go Pro</a>
+        <a href="/about">About Subastral</a>
+        <a href="/spell">Spell Creator</a>
+        <a href="/browse">Content Browser</a>
+        <a href="/faq">FAQ</a>
     </nav>
 </div>

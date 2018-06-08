@@ -33,6 +33,9 @@
                 </div>
             </div>
         </div>
+        <div class="footer container-fluid">
+            @include('components.footer')
+        </div>
     </div>
 
     <!-- Scripts -->
