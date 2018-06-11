@@ -20,3 +20,6 @@ Auth::routes();
 Route::get('/home', 'DashboardController@dashboard')->name('dashboard');
 Route::get('/register', 'Auth\RegisterController@register')->name('register');
 Route::post('/create', 'Auth\RegisterController@create')->name('create-user');
+
+Route::get('/verify/{code}', 'Auth\VerificationController@verify')->name('verify');
+Route::post('/verify/resend', 'Auth\VerificationController@resend')->name('resend');
