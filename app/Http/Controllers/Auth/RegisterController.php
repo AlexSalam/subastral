@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Models\User;
+use App\Models\Verification;
+use Ramsey\Uuid\Uuid;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -58,7 +60,7 @@ class RegisterController extends Controller
     /**
      * Create a new user instance after a valid registration.
      *
-     * @param  array  $data
+     * @param  Request $request
      * @return bool
      */
     protected function create(Request $request)
@@ -79,7 +81,16 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
             'verified' => 0
         ]);
-        return $user->save();
+
+        $user->save();
+
+        $verification = new Verification([
+            'code' => Uuid::uuid4()->toString(),
+            'userId' => $user
+        ]);
+
+        return true;
+
     }
 
     protected function register() {
