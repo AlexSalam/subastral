@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\User;
+use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -64,13 +64,20 @@ class RegisterController extends Controller
     protected function create(Request $request)
     {
         $validator = $this->validator($request->all());
-        
+
+        if ($validator->fails()) {
+            return redirect('/register')
+                ->withErrors($validator)
+                ->withInput();
+        }
+
         $data = $request->all();
 
-        return User::create([
+        $user = new User([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'verified' => 0
         ]);
     }
 
