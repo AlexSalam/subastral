@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return bool
      */
     protected function create(Request $request)
     {
@@ -79,6 +79,7 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
             'verified' => 0
         ]);
+        return $user->save();
     }
 
     protected function register() {
