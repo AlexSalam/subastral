@@ -17,7 +17,6 @@ class HomeController extends Controller
     }
 
     public function index(Request $request) {
-        $request->session()->flash('msg', ['class' => 'success', 'msg' => 'You are now logged in!']);
         return view('home');
     }
 }

@@ -2,12 +2,13 @@
     <img class="logo" src="http://via.placeholder.com/75x75" />
 </div>
 
-<h1 class="title"><a href="/">Subastral</a><span class="definition"> - <i>below the sphere of the fixed stars</i></span></h1>
+<h1 class="title"><a href="/">Subastral</a></h1>
 
 <div class="pull-right login-form">
     <form method="post" action="/login" id="login">
         <label for="username">Username <input name="username" type="text"></label><br>
         <label for="password">Password <input name="password" type="password"></label>
+        <input type="submit" form="login" value="Login" />
         {{ csrf_field() }}
     </form>
 </div>

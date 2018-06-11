@@ -15,4 +15,8 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Auth::routes();
 
+// Base routes and user creation
+
 Route::get('/home', 'DashboardController@dashboard')->name('dashboard');
+Route::get('/register', 'Auth\RegisterController@register')->name('register');
+Route::post('/create', 'Auth\RegisterController@create')->name('create-user');

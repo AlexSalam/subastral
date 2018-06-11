@@ -11,6 +11,7 @@
     </div>
     <nav class="side-nav">
         <a class="pro" href="/account/upgrade">Go Pro</a>
+        <a href="/register">Register</a>
         <a href="/about">About Subastral</a>
         <a href="/spell">Spell Creator</a>
         <a href="/browse">Content Browser</a>
