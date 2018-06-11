@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Mail\EmailVerification;
 use App\Models\User;
 use App\Models\Verification;
+use Illuminate\Support\Facades\Mail;
 use Ramsey\Uuid\Uuid;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -84,10 +86,16 @@ class RegisterController extends Controller
 
         $user->save();
 
+        $code = Uuid::uuid4()->toString();
         $verification = new Verification([
-            'code' => Uuid::uuid4()->toString(),
+            'code' => $code,
             'userId' => $user
         ]);
+
+        $verification->save();
+
+        $mail = new EmailVerification($code);
+        Mail::to($data['email'])->send($mail);
 
         return true;
 
