@@ -81,15 +81,15 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
-            'verified' => 0
+            'verified' => false
         ]);
 
-        $user->save();
+        $id = $user->save();
 
         $code = Uuid::uuid4()->toString();
         $verification = new Verification([
             'code' => $code,
-            'userId' => $user
+            'userId' => $id
         ]);
 
         $verification->save();
@@ -97,7 +97,12 @@ class RegisterController extends Controller
         $mail = new EmailVerification($code);
         Mail::to($data['email'])->send($mail);
 
-        return true;
+        $request->session()->flash('msg', [
+            'msg' => 'Registration Successful!',
+            'class' => 'success'
+        ]);
+
+        return view('home');
 
     }
 
