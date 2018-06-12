@@ -22,4 +22,5 @@ Route::get('/register', 'Auth\RegisterController@register')->name('register');
 Route::post('/create', 'Auth\RegisterController@create')->name('create-user');
 
 Route::get('/verify/{code}', 'Auth\VerificationController@verify')->name('verify');
-Route::post('/verify/resend', 'Auth\VerificationController@resend')->name('resend');
+Route::get('/verify/resend', 'Auth\VerificationController@form')->name('resend-form')->middleware('auth');
+Route::post('/verify/resend', 'Auth\VerificationController@resend')->name('resend')->middleware('auth');
