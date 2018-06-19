@@ -5,10 +5,18 @@
 <h1 class="title"><a href="/">Subastral</a></h1>
 
 <div class="pull-right login-form">
-    <form method="post" action="/login" id="login">
-        <label for="username">Username <input name="username" type="text"></label><br>
-        <label for="password">Password <input name="password" type="password"></label>
-        <input type="submit" form="login" value="Login" />
-        {{ csrf_field() }}
-    </form>
+    @guest
+        <form method="post" action="/login" id="login">
+            <label for="username">Username <input name="username" type="text"></label><br>
+            <label for="password">Password <input name="password" type="password"></label>
+            <input type="submit" form="login" value="Login" />
+            {{ csrf_field() }}
+        </form>
+    @endguest
+    @auth
+        <div class="user-box">
+            <p>Welcome {{ $user->name }}!</p>
+            <a href="/logout">Logout</a>
+        </div>
+        @endauth
 </div>

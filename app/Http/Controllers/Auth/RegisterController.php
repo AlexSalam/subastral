@@ -89,7 +89,7 @@ class RegisterController extends Controller
         $code = Uuid::uuid4()->toString();
         $verification = new Verification([
             'code' => $code,
-            'userId' => $id
+            'user_id' => $id
         ]);
 
         $verification->save();

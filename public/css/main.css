@@ -52,6 +52,10 @@ h1, h2, h3, h4, p, li, td {
     margin-right: 50px;
 }
 
+.user-box {
+    width: 250px;
+}
+
 /*Sidebar Styles*/
 
 .sidebar {

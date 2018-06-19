@@ -16,7 +16,7 @@ class CreateVerificationsTableAlterUsersVerification extends Migration
         Schema::create('verifications', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->integer('userId');
+            $table->integer('user_id');
             $table->string('code');
         });
 
