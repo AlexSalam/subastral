@@ -20,6 +20,8 @@ class HomeController extends Controller
     public function index(Request $request) {
         if (Auth::check()) {
             $user = $request->user();
+        } else {
+            $user = null;
         }
         return view('home', [
             'user' => $user

@@ -22,6 +22,7 @@ h1, h2, h3, h4, p, li, td {
 .top-nav {
     background-color: #9aff99;
     position: relative;
+    max-height: 105px;
 }
 
 .definition {
@@ -53,7 +54,20 @@ h1, h2, h3, h4, p, li, td {
 }
 
 .user-box {
-    width: 250px;
+    width: 330px;
+    height: 75px;
+}
+
+.login-error {
+    position: absolute;
+    bottom: -60px;
+    width: 330px;
+    z-index: 999;
+    font-size: small;
+}
+
+.login-error > i :hover {
+    transform: rotateZ(90deg);
 }
 
 /*Sidebar Styles*/

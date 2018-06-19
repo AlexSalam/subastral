@@ -16,7 +16,7 @@ class VerificationController extends controller {
 
     public function verify($code, Request $request) {
 
-        $verification = Verification::where('code', $code);
+        $verification = Verification::where('code', $code)->get()->first();
         if (empty($verification)) {
             return abort(404);
         }
@@ -28,7 +28,14 @@ class VerificationController extends controller {
             ]);
             return view('home');
         }
-        $user = User::where('id', $verification->user_id);
+        $user = User::where('id', $verification->user_id)->get()->first();
+        if (empty($user)) {
+            $request->session()->flash('msg', [
+                'msg' => 'No user found with that id.',
+                'class' => 'warning'
+            ]);
+            return view('home');
+        }
         $user->verified = true;
         $user->save();
         $verification->delete();
@@ -37,7 +44,9 @@ class VerificationController extends controller {
             'msg' => 'This verification token has expired, please resend the email and try again.',
             'class' => 'success'
         ]);
-        return view('home');
+        return view('home', [
+            'user' => $user
+        ]);
 
     }
 
