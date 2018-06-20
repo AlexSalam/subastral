@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-6" style="margin-top: 30px">
+        <div class="col-md-9 top-margined">
             <div class="panel panel-default home">
                 <div class="panel-heading">Register</div>
 

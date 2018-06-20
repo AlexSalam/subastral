@@ -12,11 +12,12 @@
             <input type="submit" form="login" value="Login" />
             {{ csrf_field() }}
         </form>
+        <a href="/password/reset">Forgot your password?</a>
         @include('components.login-errors')
     @endguest
     @auth
         <div class="user-box">
-            <p>Welcome {{ $user->name }}!</p>
+            <p>Welcome {{ Auth::user()->name }}!</p>
             <form method="POST" id="logout-form" action="{{ route('logout') }}">
                 {{ csrf_field() }}
                 <input class="pull-right" type="submit" form="logout-form" value="Logout" />
