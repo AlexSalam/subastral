@@ -26,7 +26,19 @@ class CampaignController extends Controller
 
     public function create(Request $request) {
 
+        $data = $request->all();
+        $campaign = new Campaign();
 
+        $campaign->name = $data['name'];
+        $campaign->beginning = $data['beginning'];
+        $campaign->description = $data['description'];
+        $campaign->min_level = $data['min_level'];
+        $campaign->max_level = $data['mac_level'];
+        $campaign->author = $data['author'];
+
+        $campaign->save();
+
+        return view('campaign.read')->with('campaign', $campaign);
 
     }
 
@@ -37,21 +49,32 @@ class CampaignController extends Controller
 
     }
 
-    public function update(Request $request) {
+    public function update($id) {
 
-
-
-    }
-
-    public function delete(Request $request) {
-
-
+        $campaign = Campaign::findOrFail($id);
+        return view('campaign.form')->with('campaign', $campaign);
 
     }
 
-    public function form(Request $request) {
+    public function delete(Request $request, $id) {
 
+        $campaign = Campaign::findOrFail($id);
+        $campaign->delete();
+        $request->session()->flash('msg', [
+            'msg' => 'Campaign successfully deleted!',
+            'class' => 'success'
+        ]);
+        return view('home');
 
+    }
+
+    public function form(Request $request, $id = null) {
+
+        if (is_null($id)) {
+            return view('campaign.form');
+        }
+        $campaign = Campaign::findOrFail($id);
+        return view('campaign.form')->with('campaign', $campaign);
 
     }
 }
