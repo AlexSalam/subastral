@@ -27,7 +27,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function verification() {
-        return $this->hasOne('Models\Verification');
+    public function verifications() {
+        return $this->hasMany('App\Models\Verification');
     }
 }

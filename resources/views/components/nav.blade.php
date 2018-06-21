@@ -17,7 +17,7 @@
     @endguest
     @auth
         <div class="user-box">
-            <p>Welcome {{ Auth::user()->name }}!</p>
+            <h4>Welcome {{ Auth::user()->name }}!</h4>
             <form method="POST" id="logout-form" action="{{ route('logout') }}">
                 {{ csrf_field() }}
                 <input class="pull-right" type="submit" form="logout-form" value="Logout" />

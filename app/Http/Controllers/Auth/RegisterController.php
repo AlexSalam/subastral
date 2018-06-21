@@ -84,12 +84,12 @@ class RegisterController extends Controller
             'verified' => false
         ]);
 
-        $id = $user->save();
+        $user->save();
 
         $code = Uuid::uuid4()->toString();
         $verification = new Verification([
             'code' => $code,
-            'user_id' => $id
+            'user_id' => $user->id
         ]);
 
         $verification->save();
@@ -98,7 +98,7 @@ class RegisterController extends Controller
         Mail::to($data['email'])->send($mail);
 
         $request->session()->flash('msg', [
-            'msg' => 'Registration Successful!',
+            'msg' => 'Registration Successful! - Check your email for a verification code to activate your account.',
             'class' => 'success'
         ]);
 

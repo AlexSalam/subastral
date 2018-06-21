@@ -41,7 +41,7 @@ class VerificationController extends controller {
         $verification->delete();
 
         $request->session()->flash('msg', [
-            'msg' => 'This verification token has expired, please resend the email and try again.',
+            'msg' => 'Account successfully verified!',
             'class' => 'success'
         ]);
         return view('home', [
@@ -59,7 +59,7 @@ class VerificationController extends controller {
         $verification->code = $code;
         $verification->save();
 
-        Mail::to($verification->User()->email)->send(new EmailVerification($code));
+        Mail::to($verification->user->email)->send(new EmailVerification($code));
 
         $request->session()->flash('msg', [
             'msg' => 'Verification email sent.',

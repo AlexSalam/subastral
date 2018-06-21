@@ -18,6 +18,6 @@ class Verification extends Model
     ];
 
     public function User() {
-        return $this->belongsTo('Models\User');
+        return $this->belongsTo('App\Models\User');
     }
 }
