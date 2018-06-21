@@ -10,6 +10,7 @@ namespace App\Http\Controllers\Campaign;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Campaign;
 
 class CampaignController extends Controller
 {
@@ -29,9 +30,10 @@ class CampaignController extends Controller
 
     }
 
-    public function read(Request $request) {
+    public function read($id) {
 
-
+        $campaign = Campaign::findOrFail($id);
+        return view('campaign.read')->with('campaign', $campaign);
 
     }
 
