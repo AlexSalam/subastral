@@ -30,4 +30,8 @@ class User extends Authenticatable
     public function verifications() {
         return $this->hasMany('App\Models\Verification');
     }
+
+    public function campaigns() {
+        return $this->hasMany('App\Models\Campaign');
+    }
 }

@@ -60,8 +60,8 @@ h1, h2, h3, h4, p, li, td {
 
 .login-error {
     position: absolute;
-    bottom: -60px;
-    width: 330px;
+    bottom: -65px;
+    width: 320px;
     z-index: 999;
     font-size: small;
 }
