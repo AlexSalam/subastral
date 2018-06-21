@@ -32,8 +32,8 @@ class CampaignController extends Controller
         $campaign->name = $data['name'];
         $campaign->beginning = $data['beginning'];
         $campaign->description = $data['description'];
-        $campaign->min_level = $data['min_level'];
-        $campaign->max_level = $data['mac_level'];
+        $campaign->min_level = $data['min-level'];
+        $campaign->max_level = $data['max-level'];
         $campaign->author = $data['author'];
 
         $campaign->save();
@@ -68,7 +68,7 @@ class CampaignController extends Controller
 
     }
 
-    public function form(Request $request, $id = null) {
+    public function form($id = null) {
 
         if (is_null($id)) {
             return view('campaign.form');

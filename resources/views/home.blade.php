@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div style="margin-top:30px" class="row">
+    <div class="row top margined">
         <div class="col-md-6">
             <div class="panel panel-default top-left home">
                 <div class="panel-heading">

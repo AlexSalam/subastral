@@ -33,7 +33,7 @@ Route::group([
     'as' => 'campaign.'
 ], function() {
 
-    Route::get('{id}', 'Campaign\CampaignController@read')->name('get');
+    Route::get('id/{id}', 'Campaign\CampaignController@read')->name('get');
 
     Route::get('create', 'Campaign\CampaignController@form')->name('form');
     Route::post('create', 'Campaign\CampaignController@create')->name('create');
