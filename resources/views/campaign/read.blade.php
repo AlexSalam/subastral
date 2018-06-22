@@ -6,9 +6,9 @@
         <div class="row">
             <div class="col-lg-6 campaign-data">
                 <div class="data">
-                    <p>Started on: {{ $campaign->beginning->toDateTimeString() }}</p>
+                    <p>Started on: {{ $campaign->beginning }}</p>
                     <p>From level {{ $campaign->min_level }} to {{ $campaign->max_level }}</p>
-                    <p>Brought to you by: {{ $campagign->author }}</p>
+                    <p>Brought to you by: {{ $campaign->author }}</p>
                 </div>
                 <div class="player-characters">
                     <ul>
@@ -27,7 +27,7 @@
             <div class="col-lg-12">
                 <h3>Adventure Log Entries</h3>
                 <ul>
-                    <li>Examplegt</li>
+                    <li>Example</li>
                 </ul>
             </div>
         </div>

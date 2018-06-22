@@ -12,6 +12,7 @@
         <div class="panel-body">
             <p>Campaigns serve as a way to encapsulate all of your content under a single adventure and will be used to link all the other monsters, villains and heroes together.</p>
             <form id="campaign-form" action="{{ !empty($campaign) ? route('campaign.edit') : route('campaign.create') }}" method="POST">
+                {{ csrf_field() }}
                 <div class="form-group">
                     <label for="name">Campaign Name </label><input id="name" class="form-control" name="name" type="text" value="{{ !empty($campaign) ? $campaign->name : '' }}" />
                     <p class="help-block">(required)</p>
@@ -24,7 +25,7 @@
                     <label for="max-level">Maximum Level </label><input id="max-level" name="max-level" type="number" class="form-control" value="{{ !empty($campaign) ? $campaign->max_level : '' }}" />
                 </div>
                 <div class="form-group">
-                    <label for="beginning">When did your Campaign Begin?</label><input id="beginning" name="beginning" type="date" class="form-control" value="{{ !empty($campaign) ? $campaign->beginning : '' }}" />
+                    <label for="beginning">When did your campaign begin?</label><input id="beginning" name="beginning" type="date" class="form-control" value="{{ !empty($campaign) ? $campaign->beginning : '' }}" />
                 </div>
                 <div class="form-group">
                     <label for="author">Author</label><input value="{{ !empty($campaign) ? $campaign->author : '' }}" name="author" id="author" class="form-control" type="text" />
