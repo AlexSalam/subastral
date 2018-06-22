@@ -14,6 +14,7 @@
             <form id="campaign-form" action="{{ !empty($campaign) ? route('campaign.edit') : route('campaign.create') }}" method="POST">
                 <div class="form-group">
                     <label for="name">Campaign Name </label><input id="name" class="form-control" name="name" type="text" value="{{ !empty($campaign) ? $campaign->name : '' }}" />
+                    <p class="help-block">(required)</p>
                 </div>
                 <div class="form-group">
                     <label for="description">Tell us a little about your campaign </label><textarea class="form-control" rows="5" id="description" name="description" form="campaign-form">{{ !empty($campaign) ? $campaign->description : '' }}</textarea>
