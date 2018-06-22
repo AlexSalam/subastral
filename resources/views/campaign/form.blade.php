@@ -10,7 +10,7 @@
             @endif
         </div>
         <div class="panel-body">
-            <p>This is the form!</p>
+            <p>Campaigns serve as a way to encapsulate all of your content under a single adventure and will be used to link all the other monsters, villains and heroes together.</p>
             <form id="campaign-form" action="{{ !empty($campaign) ? route('campaign.edit') : route('campaign.create') }}" method="POST">
                 <div class="form-group">
                     <label for="name">Campaign Name </label><input id="name" class="form-control" name="name" type="text" value="{{ !empty($campaign) ? $campaign->name : '' }}" />

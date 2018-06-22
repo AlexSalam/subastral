@@ -26,7 +26,15 @@ class CampaignController extends Controller
 
     public function create(Request $request) {
 
-        $data = $request->all();
+        $data = $request->validate([
+            'name' => 'required|max:255',
+            'beginning' => 'date',
+            'description' => '',
+            'min-level' => 'integer',
+            'max-level' => 'integer',
+            'author' => 'alpha_num|max:255'
+        ]);
+
         $campaign = new Campaign();
 
         $campaign->name = $data['name'];
