@@ -16,7 +16,7 @@
                     <label for="name">Campaign Name </label><input id="name" class="form-control" name="name" type="text" value="{{ !empty($campaign) ? $campaign->name : '' }}" />
                 </div>
                 <div class="form-group">
-                    <label for="description">Tell us a little about your campaign </label><textarea class="form-control" rows="3" id="description" name="description" form="campaign-form">{{ !empty($campaign) ? $campaign->description : '' }}</textarea>
+                    <label for="description">Tell us a little about your campaign </label><textarea class="form-control" rows="5" id="description" name="description" form="campaign-form">{{ !empty($campaign) ? $campaign->description : '' }}</textarea>
                 </div>
                 <div class="form-group">
                     <label for="min-level">Minimum Level </label><input id="min-level" name="min-level" type="number" class="form-control" value="{{ !empty($campaign) ? $campaign->min_level : '' }}" />
