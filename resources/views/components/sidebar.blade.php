@@ -1,8 +1,8 @@
 <div class="sidebar">
     <div class="campaign-selector">
-        <h4 class="title">Select your campaign</h4>
+        <h4 class="title">Select a campaign</h4>
         <div class="form-group">
-            <select id="campaign-select" form="campaign-selector" class="form-control" name="campaign">
+            <select id="campaign-select" class="form-control">
                 @foreach(Auth::user()->campaigns as $campaign)
                     <option value="/campaign/id/{{ $campaign->id }}">{{ $campaign->name }}</option>
                 @endforeach
