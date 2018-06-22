@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
+    // Campaign selector JS
+
     $('#selector').select(function (event) {
-        $('#campaign-selector').submit();
+        document.location.href = $('#campaign-selector').find(':selected').val();
     });
 
 });

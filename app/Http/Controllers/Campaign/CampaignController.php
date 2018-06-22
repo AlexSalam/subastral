@@ -11,6 +11,7 @@ namespace App\Http\Controllers\Campaign;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Campaign;
+use Illuminate\Support\Facades\Auth;
 
 class CampaignController extends Controller
 {
@@ -44,7 +45,7 @@ class CampaignController extends Controller
         $campaign->max_level = $data['max-level'];
         $campaign->author = $data['author'];
 
-        $campaign->save();
+        Auth::user()->campaigns()->save($campaign);
 
         return view('campaign.read')->with('campaign', $campaign);
 

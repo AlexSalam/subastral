@@ -1,13 +1,14 @@
 <div class="sidebar">
     <div class="campaign-selector">
         <h4 class="title">Select your campaign</h4>
-        <form action="/campaign/set" method="post" id="campaign-selector">
-            <div class="form-group">
-                <select id="campaign-select" form="campaign-selector" class="form-control" name="campaign">
-                    <option value="test">Test Campaign</option>
-                </select>
-            </div>
-        </form>
+        <div class="form-group">
+            <select id="campaign-select" form="campaign-selector" class="form-control" name="campaign">
+                @foreach(Auth::user()->campaigns as $campaign)
+                    <option value="/campaign/id/{{ $campaign->id }}">{{ $campaign->name }}</option>
+                @endforeach
+                <option value="/campaign/create">New Campaign</option>
+            </select>
+        </div>
     </div>
     @auth
         <nav class="side-nav">
