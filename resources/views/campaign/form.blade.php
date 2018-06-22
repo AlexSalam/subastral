@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="panel panel-default top-margined">
+    <div class="panel panel-default top-margined home">
         <div class="panel-heading">
             @if(empty($campaign))
                 <h2>Create a Campaign!</h2>
@@ -23,7 +23,13 @@
                     <label for="max-level">Maximum Level </label><input id="max-level" name="max-level" type="number" class="form-control" value="{{ !empty($campaign) ? $campaign->max_level : '' }}" />
                 </div>
                 <div class="form-group">
-                    <label for="beginning">When did your Campaign Begin</label>
+                    <label for="beginning">When did your Campaign Begin?</label><input id="beginning" name="beginning" type="date" class="form-control" value="{{ !empty($campaign) ? $campaign->beginning : '' }}" />
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label><input value="{{ !empty($campaign) ? $campaign->author : '' }}" name="author" id="author" class="form-control" type="text" />
+                </div>
+                <div class="form-group">
+                    <button form="campaign-form" type="submit" class="btn btn-default">Submit</button>
                 </div>
             </form>
         </div>

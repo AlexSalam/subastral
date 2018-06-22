@@ -77,4 +77,11 @@ class CampaignController extends Controller
         return view('campaign.form')->with('campaign', $campaign);
 
     }
+
+    public function campaigns(Request $request) {
+
+        $campaigns = $request->user()->campaigns;
+        return view('campaign.list')->with('campaigns', $campaigns);
+
+    }
 }
