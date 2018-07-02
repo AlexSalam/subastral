@@ -37,7 +37,7 @@ Route::group([
 
     Route::get('create', 'Campaign\CampaignController@form')->name('form');
     Route::post('create', 'Campaign\CampaignController@create')->name('create');
-    Route::get('edit/{id}', 'Campaign\CampaignController@form')->name('edit-form');
+    Route::get('edit/{id}', 'Campaign\CampaignController@form')->name('edit');
     Route::post('edit/{id}', 'Campaign\CampaignController@update')->name('update');
 
     Route::delete('{id}', 'Campaign\CampaignController@delete')->name('delete');

@@ -21,6 +21,10 @@ h1, h2, h3, h4, p, li, td {
     margin-top: 30px;
 }
 
+.bot-margined {
+    margin-bottom: 30px;
+}
+
 /*Top Nav styles*/
 
 .top-nav {

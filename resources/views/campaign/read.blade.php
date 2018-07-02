@@ -4,6 +4,21 @@
     <div class="col-lg-9 top-margined home">
         <h2>{{ $campaign->name }}</h2>
         <div class="row">
+            <div class="col-lg-12 actions panel panel-default top-margined bot-margined">
+                <h4 class="panel-heading">Actions</h4>
+                <ul class="list-inline">
+                    <li><a href="{{ route('campaign.edit', ['id' => $campaign->id]) }}">Edit</a></li>
+                    <li>
+                        <form id="delete" action="{{ route('campaign.delete', $campaign->id) }}" method="POST">
+                            {{ csrf_field() }}
+                            {{ method_field('DELETE') }}
+                            <a onclick="deleteAlert()">Delete</a>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-lg-6 campaign-data">
                 <div class="data">
                     <p>Started on: {{ $campaign->beginning }}</p>
@@ -11,7 +26,7 @@
                     <p>Authored by: {{ $campaign->author }}</p>
                 </div>
                 <div class="player-characters">
-                    <h2>Players</h2>
+                    <h3>Players</h3>
                     <ul>
                         <li>Example the Druid</li>
                     </ul>
@@ -24,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row bot-margined">
             <div class="col-lg-12">
                 <h3>Adventure Log Entries</h3>
                 <ul>
@@ -32,7 +47,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row bot-margined">
             <div class="col-lg-12">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#monsters">Monsters</a></li>
