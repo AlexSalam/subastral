@@ -26,7 +26,7 @@ h1, h2, h3, h4, p, li, td {
 .top-nav {
     background-color: #9aff99;
     position: relative;
-    max-height: 105px;
+    max-height: 115px;
 }
 
 .top-nav .title {
@@ -44,7 +44,7 @@ h1, h2, h3, h4, p, li, td {
     margin-top: 10px;
     padding: 5px;
     border-radius: 3px;
-    height: 95px;
+    height: 105px;
 }
 
 .logo-title-container {

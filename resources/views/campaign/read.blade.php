@@ -8,11 +8,12 @@
                 <div class="data">
                     <p>Started on: {{ $campaign->beginning }}</p>
                     <p>From level {{ $campaign->min_level }} to {{ $campaign->max_level }}</p>
-                    <p>Brought to you by: {{ $campaign->author }}</p>
+                    <p>Authored by: {{ $campaign->author }}</p>
                 </div>
                 <div class="player-characters">
+                    <h2>Players</h2>
                     <ul>
-                        <li></li>
+                        <li>Example the Druid</li>
                     </ul>
                 </div>
             </div>
@@ -33,6 +34,14 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#monsters">Monsters</a></li>
+                    <li><a data-toggle="tab" href="#npcs">NPCS</a></li>
+                    <li><a data-toggle="tab" href="#treasure">Treasure</a></li>
+                    <li><a data-toggle="tab" href="#places">Places</a></li>
+                    <li><a data-toggle="tab" href="#events">Events</a></li>
+                    <li><a data-toggle="tab" href="#graveyard">Graveyard</a></li>
+                </ul>
                 <div class="tab-content">
                     <div data-toggle="tab" role="tabpanel" class="tab-pane fade in active" id="monsters">
                         <h3>Monsters</h3>

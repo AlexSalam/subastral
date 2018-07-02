@@ -2,12 +2,18 @@
     <div class="campaign-selector">
         <h4 class="title">Select a campaign</h4>
         <div class="form-group">
-            <select id="campaign-select" class="form-control">
-                @foreach(Auth::user()->campaigns as $campaign)
-                    <option value="/campaign/id/{{ $campaign->id }}">{{ $campaign->name }}</option>
-                @endforeach
-                <option value="/campaign/create">New Campaign</option>
-            </select>
+            @if(!empty(Auth::user()->campaigns))
+                <select id="campaign-select" class="form-control">
+                    @foreach(Auth::user()->campaigns as $campaign)
+                        <option value="/campaign/id/{{ $campaign->id }}">{{ $campaign->name }}</option>
+                    @endforeach
+                    <option value="/campaign/create">New Campaign</option>
+                </select>
+            @else
+                <select id="campaign-select" class="form-control">
+                    <option value="/campaign/create">New Campaign</option>
+                </select>
+            @endif
         </div>
     </div>
     @auth

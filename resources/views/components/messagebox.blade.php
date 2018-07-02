@@ -9,7 +9,7 @@
 @if($errors->any())
     <div class="alert-box alert-dismissable alert-danger">
         <ul class="form-error-list">
-            @foreach($errors->to_array() as $error)
+            @foreach($errors->all() as $error)
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
