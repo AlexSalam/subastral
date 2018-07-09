@@ -33,7 +33,7 @@ class CampaignController extends Controller
             'description' => '',
             'min-level' => 'integer',
             'max-level' => 'integer',
-            'author' => ''
+            'author' => 'string|max:255'
         ]);
 
         $campaign = new Campaign();
